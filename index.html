@@ -3,7 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-  <title>Email Feedback Form</title>
+  
+  <!-- Primary Meta Tags -->
+  <title>Get in touch | The Spencer Ledger Website</title>
+  <meta name="title" content="Get in touch | The Spencer Ledger Website" />
+  <meta name="description" content="Use this form to reach out!" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hi.spencers.zone/" />
+  <meta property="og:title" content="Get in touch | The Spencer Ledger Website" />
+  <meta property="og:description" content="Use this form to reach out!" />
+  <meta property="og:image" content="https://cdn.spencers.zone/images/spencerszoneframework-whitebg.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://hi.spencers.zone/" />
+  <meta property="twitter:title" content="Get in touch | The Spencer Ledger Website" />
+  <meta property="twitter:description" content="Use this form to reach out!" />
+  <meta property="twitter:image" content="https://cdn.spencers.zone/images/spencerszoneframework-whitebg.png" />
+
   <link rel="icon" href="https://cdn.spencers.zone/images/triad-favicon.ico" type="image/x-icon" />
 
   <script async src="https://tally.so/widgets/embed.js"></script>
@@ -30,14 +49,13 @@
   </style>
 
   <script>
-    // Title flipper logic retained from your original code
     let titles = ["Get in touch", "The Spencer Ledger Website"];
     let index = 0;
 
     setInterval(() => {
       document.title = titles[index];
       index = (index + 1) % titles.length;
-    }, 3000); // every 3 seconds
+    }, 3000);
   </script>
 </head>
 <body>
